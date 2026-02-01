@@ -10,3 +10,11 @@ runners:
     region: "tor1"
     labels:
       - "cirun-gpu-ubuntu-runner"
+      
+  - name: "cpu-runner"
+    cloud: "do"
+    instance_type: "s-1vcpu-1gb"
+    machine_image: "ubuntu-24-04-x64"
+    region: "tor1"
+    labels:
+      - "cirun-cpu-ubuntu-runner"
