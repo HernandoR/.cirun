@@ -2,9 +2,10 @@ version: 1
 
 policies:
   - id: pcl-rustic-policy
-    repo: HernandoR/pcl-rustic
+    repo: pcl-rustic
     users:
       - hernandor
+    pull_request: true
 
 access_control:
   - resource: gpu-runner
