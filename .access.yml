@@ -2,7 +2,7 @@ version: 1
 
 policies:
   - id: pcl-rustic-policy
-    repo: pcl-rustic
+    repo: HernandoR/pcl-rustic
     users:
       - hernandor
 
